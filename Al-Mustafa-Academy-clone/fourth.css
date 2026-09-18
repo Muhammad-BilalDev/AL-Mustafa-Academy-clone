@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.forth-child-text-top-main-box {
+    text-align: center;
+}
+
+.fouth-child-top-text-one {
+    font-weight: bold;
+    font-size: small;
+    color: slategray;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+}
+
+.fouth-child-top-text-two {
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.forth-main-box {
+    width: 100%;
+    height: auto;
+    background-color: #e8f0fa;
+    padding-bottom: 40px;
+}
+
+.forth-select-box {
+    width: 30%;
+    height: 35px;
+    padding: 5px;
+
+
+}
+
+.forth-select-box:focus {
+    width: 30%;
+    height: 30px;
+    outline: none;
+}
+
+
+.faq-container {
+    width: 60%;
+    /* Aap apne hisab se width kam ya zyada kar sakte hain */
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+.faq-box {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.faq-question {
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+.faq-question:hover {
+    color: #2563eb;
+    transition: 0.5s;
+}
+
+.faq-question::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+details[open] .faq-question::after {
+    transform: rotate(-135deg);
+}
+
+.faq-answer {
+    margin-top: 15px;
+    color: #666;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+@media screen and (max-width: 512px) {
+
+    .forth-child-text-top-main-box {
+        text-align: center;
+    }
+
+    .fouth-child-top-text-one {
+        font-weight: bold;
+        font-size: small;
+        color: slategray;
+        font-family: "Open Sans", sans-serif;
+        padding-top: 30px;
+    }
+
+    .fouth-child-top-text-two {
+        font-size: 28px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        padding: 20px 10px;
+    }
+
+    .forth-main-box {
+        width: 100%;
+        height: auto;
+        background-color: #e8f0fa;
+        padding-bottom: 20px;
+    }
+
+    .forth-select-box {
+        width: 30%;
+        height: 35px;
+        padding: 5px;
+
+
+    }
+
+    .forth-select-box:focus {
+        width: 30%;
+        height: 30px;
+        outline: none;
+    }
+
+
+    .faq-container {
+        width: 90%;
+        /* Aap apne hisab se width kam ya zyada kar sakte hain */
+        margin: 20px auto;
+        font-family: sans-serif;
+    }
+
+    .faq-box {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+
+    .faq-question {
+        list-style: none;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #333;
+    }
+
+    .faq-question:hover {
+        color: #2563eb;
+        transition: 0.5s;
+    }
+
+    .faq-question::after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-right: 2px solid blue;
+        border-bottom: 2px solid blue;
+        transform: rotate(45deg);
+        transition: 0.3s;
+    }
+
+    details[open] .faq-question::after {
+        transform: rotate(-135deg);
+    }
+
+    .faq-answer {
+        margin-top: 15px;
+        color: #666;
+        line-height: 1.6;
+        font-size: 16px;
+    }
+
+    summary::-webkit-details-marker {
+        display: none;
+    }
+
+}

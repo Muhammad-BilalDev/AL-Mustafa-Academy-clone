@@ -1,0 +1,186 @@
+.center-first-main {
+    background-image: url(https://academyalmustafa.netlify.app/assets/HomeBanner-CRfiPAbH.jpg);
+    background-size: cover;
+    height: 75vh;
+}
+
+.center-first-box {
+    display: flex;
+    justify-content: space-around;
+    height: 75vh;
+    align-items: center;
+}
+
+.center-first-left {
+    width: 35%;
+}
+
+.center-left-text-one {
+    font-size: 48px;
+    margin-bottom: 3px;
+
+}
+
+.center-left-text-two {
+    color: rgb(81, 83, 209);
+    font-size: 45px;
+    margin-bottom: 3px;
+
+}
+
+.center-left-text-three {
+    font-size: x-large;
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+    color: rgb(105, 96, 96);
+}
+
+.center-first-left>button {
+    width: 180px;
+    height: 40px;
+    background-color: rgb(95, 95, 255);
+    font-size: medium;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 10px;
+}
+
+span>i {
+    font-size: medium;
+    font-weight: normal;
+
+}
+
+.center-first-right {
+    width: 40%;
+    /* margin: auto; */
+    border: 10px solid white;
+    border-radius: 100%;
+    width: 310px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.center-first-right img {
+    width: 310px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 512px) {
+    .center-first-main {
+        background-image: url(https://academyalmustafa.netlify.app/assets/HomeBanner-CRfiPAbH.jpg);
+        background-size: cover;
+        height: auto;
+        padding: 30px 0px;
+         font-family: "Fira Sans", sans-serif;
+    }
+
+    .center-first-box {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+    }
+
+    .center-first-left {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .center-left-text-one {
+        font-size: 30px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
+    .center-left-text-two {
+        color: rgb(81, 83, 209);
+        font-size: 35px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
+    .center-left-text-three {
+        font-size: large;
+        margin-top: 15px;
+        font-family: "Roboto", sans-serif;
+        line-height: 25px;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .center-first-left>button {
+        width: 180px;
+        height: 40px;
+        background-color: rgb(95, 95, 255);
+        font-size: medium;
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    span>i {
+        font-size: medium;
+        font-weight: normal;
+
+    }
+
+    .center-first-right {
+        width: 100%;
+        /* margin: auto; */
+        border: 10px solid white;
+        border-radius: 100%;
+        width: 250px;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .center-first-right img {
+        width: 250px;
+        height: 240px;
+        border-radius: 100%;
+    }
+
+
+    .center-second-box {
+        width: 100%;
+        height: 108vh;
+    }
+
+    .top-second-main-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+        padding-top: 50px;
+    }
+
+    .center-second-top-text {
+        font-size: large;
+    }
+
+
+    .center-second-text-last-top-one {
+        font-size: x-large;
+        color: #3554ed;
+
+    }
+
+    .center-second-text-last-top-two {
+        font-size: 60px;
+        font-weight: bold;
+        /* border-bottom: 5px solid; */
+        /* border-bottom-width: 10px; */
+
+    }
+
+}
+
